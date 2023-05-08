@@ -8,7 +8,7 @@ use PHPUnit\Framework\TestCase;
 use Dotenv\Dotenv;
 
 $dotenv = Dotenv::createImmutable(__DIR__ . '/../../', ".env.test");
-$dotenv->load();
+$dotenv->safeLoad();
 
 class MailitTest extends TestCase
 {
