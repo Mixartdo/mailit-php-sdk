@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" bootstrap="vendor/autoload.php" colors="true" verbose="true" convertErrorsToExceptions="true" convertNoticesToExceptions="true" convertWarningsToExceptions="true" stopOnFailure="false" xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.3/phpunit.xsd">
+  <coverage/>
+  <testsuites>
+    <testsuite name="MailitSDK Test Suite">
+      <directory>tests/Unit</directory>
+      <directory>tests/Integration</directory>
+    </testsuite>
+  </testsuites>
+  <logging>
+    <junit outputFile="test-reports/phpunit.junit.xml"/>
+    <testdoxHtml outputFile="test-reports/phpunit.testdox.html"/>
+    <testdoxText outputFile="test-reports/phpunit.testdox.txt"/>
+    <testdoxXml outputFile="test-reports/phpunit.testdox.xml"/>
+  </logging>
+</phpunit>

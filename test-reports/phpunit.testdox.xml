@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tests>
+  <test className="MailitSDK\Tests\Unit\MailitUnitTest" methodName="testGetParsedTemplate" prettifiedClassName="Mailit Unit (MailitSDK\Tests\Unit\MailitUnit)" prettifiedMethodName="Get parsed template" status="0" time="0.005751844" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="MailitSDK\Tests\Unit\MailitUnitTest" methodName="testGetParsedTemplateThrowsException" prettifiedClassName="Mailit Unit (MailitSDK\Tests\Unit\MailitUnit)" prettifiedMethodName="Get parsed template throws exception" status="0" time="0.073420756" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+  <test className="MailitSDK\Tests\Integration\MailitTest" methodName="testGetParsedTemplate" prettifiedClassName="Mailit (MailitSDK\Tests\Integration\Mailit)" prettifiedMethodName="Get parsed template" status="0" time="0.960533296" size="-1" groups="default">
+    <group name="default"/>
+  </test>
+</tests>

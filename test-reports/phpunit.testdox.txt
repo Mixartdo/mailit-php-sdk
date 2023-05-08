@@ -1,0 +1,7 @@
+Mailit Unit (MailitSDK\Tests\Unit\MailitUnit)
+ [x] Get parsed template
+ [x] Get parsed template throws exception
+
+Mailit (MailitSDK\Tests\Integration\Mailit)
+ [x] Get parsed template
+
