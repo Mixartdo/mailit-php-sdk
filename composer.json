@@ -1,7 +1,7 @@
 {
   "name": "mixartdo/mailit-sdk",
   "description": "A short description of what your package does",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "require": {
     "php": ">=7.4",
     "guzzlehttp/guzzle": "^7.0"
