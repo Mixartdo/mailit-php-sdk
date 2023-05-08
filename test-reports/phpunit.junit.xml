@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="" tests="3" assertions="5" errors="0" warnings="0" failures="0" skipped="0" time="1.039706">
-    <testsuite name="MailitSDK Test Suite" tests="3" assertions="5" errors="0" warnings="0" failures="0" skipped="0" time="1.039706">
-      <testsuite name="MailitSDK\Tests\Unit\MailitUnitTest" file="/home/mixart/projects/mailit-php-sdk/tests/Unit/MailitUnitTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.079173">
-        <testcase name="testGetParsedTemplate" class="MailitSDK\Tests\Unit\MailitUnitTest" classname="MailitSDK.Tests.Unit.MailitUnitTest" file="/home/mixart/projects/mailit-php-sdk/tests/Unit/MailitUnitTest.php" line="22" assertions="1" time="0.005752"/>
-        <testcase name="testGetParsedTemplateThrowsException" class="MailitSDK\Tests\Unit\MailitUnitTest" classname="MailitSDK.Tests.Unit.MailitUnitTest" file="/home/mixart/projects/mailit-php-sdk/tests/Unit/MailitUnitTest.php" line="43" assertions="1" time="0.073421"/>
+  <testsuite name="" tests="3" assertions="5" errors="0" warnings="0" failures="0" skipped="0" time="0.921669">
+    <testsuite name="MailitSDK Test Suite" tests="3" assertions="5" errors="0" warnings="0" failures="0" skipped="0" time="0.921669">
+      <testsuite name="MailitSDK\Tests\Unit\MailitUnitTest" file="/home/mixart/projects/mailit-php-sdk/tests/Unit/MailitUnitTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.041155">
+        <testcase name="testGetParsedTemplate" class="MailitSDK\Tests\Unit\MailitUnitTest" classname="MailitSDK.Tests.Unit.MailitUnitTest" file="/home/mixart/projects/mailit-php-sdk/tests/Unit/MailitUnitTest.php" line="22" assertions="1" time="0.006536"/>
+        <testcase name="testGetParsedTemplateThrowsException" class="MailitSDK\Tests\Unit\MailitUnitTest" classname="MailitSDK.Tests.Unit.MailitUnitTest" file="/home/mixart/projects/mailit-php-sdk/tests/Unit/MailitUnitTest.php" line="43" assertions="1" time="0.034619"/>
       </testsuite>
-      <testsuite name="MailitSDK\Tests\Integration\MailitTest" file="/home/mixart/projects/mailit-php-sdk/tests/Integration/MailitTest.php" tests="1" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.960533">
-        <testcase name="testGetParsedTemplate" class="MailitSDK\Tests\Integration\MailitTest" classname="MailitSDK.Tests.Integration.MailitTest" file="/home/mixart/projects/mailit-php-sdk/tests/Integration/MailitTest.php" line="29" assertions="3" time="0.960533"/>
+      <testsuite name="MailitSDK\Tests\Integration\MailitTest" file="/home/mixart/projects/mailit-php-sdk/tests/Integration/MailitTest.php" tests="1" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.880514">
+        <testcase name="testGetParsedTemplate" class="MailitSDK\Tests\Integration\MailitTest" classname="MailitSDK.Tests.Integration.MailitTest" file="/home/mixart/projects/mailit-php-sdk/tests/Integration/MailitTest.php" line="29" assertions="3" time="0.880514"/>
       </testsuite>
     </testsuite>
   </testsuite>

@@ -49,7 +49,7 @@ class MailitUnitTest extends TestCase
 
         $client = new Client(['base_uri' => $this->endpoint, 'handler' => HandlerStack::create()]);
 
-        $mailit = new Mailit($this->endpoint, $this->clientId, $this->secretKey);
+        $mailit = new Mailit($this->clientId, $this->secretKey, $this->endpoint);
         $mailit->setClient($client);
 
         $mailit->getParsedTemplate($slug, $data);

@@ -8,7 +8,7 @@ class Mailit
 {
     private Client $client;
     private String $clientId;
-    public function __construct(String $endpoint, String $clientId, String $secretKey)
+    public function __construct(String $clientId, String $secretKey, String $endpoint="https://mailit-parser.anthony2994.workers.dev")
     {
         $this->clientId = $clientId;
         $this->client = new Client(

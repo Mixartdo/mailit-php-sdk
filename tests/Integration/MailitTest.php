@@ -30,7 +30,7 @@ class MailitTest extends TestCase
     {
         $slug = 'password-recovery';
         $data = ['name' => 'hello', 'company' => 'mailit'];
-        $mailit = new Mailit($this->endpoint, $this->clientId, $this->secretKey);
+        $mailit = new Mailit($this->clientId, $this->secretKey, $this->endpoint);
         $responseHtml = $mailit->getParsedTemplate($slug, $data);
 
         $this->assertStringContainsString("hello", $responseHtml);
